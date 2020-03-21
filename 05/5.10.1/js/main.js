@@ -29,7 +29,7 @@ var y = d3.scaleLinear()
 var area = d3.scaleLinear()
     .range([25*Math.PI, 1500*Math.PI])
     .domain([2000, 1400000000]);
-var continentColor = d3.scaleOrdinal(d3.schemePastel1);
+var continentColor = d3.scaleOrdinal(d3.schemeSet1);
 
 // Labels
 var xLabel = g.append("text")
