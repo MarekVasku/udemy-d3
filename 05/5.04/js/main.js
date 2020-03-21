@@ -50,7 +50,7 @@ g.append("text")
     .text("Revenue");
 
 d3.json("data/revenues.json").then(function(data){
-    // console.log(data);
+    console.log(data);
 
     // Clean data
     data.forEach(function(d) {
@@ -81,7 +81,7 @@ function update(data) {
     // JOIN new data with old elements.
     var rects = g.selectAll("rect")
         .data(data);
-
+    //console.log(rects);
     // EXIT old elements not present in new data.
     rects.exit().remove();
 

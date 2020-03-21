@@ -8,10 +8,10 @@ var margin = { left:80, right:20, top:50, bottom:100 };
 
 var width = 600 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
-
+ 
 var flag = true;
 
-var t = d3.transition().duration(750);
+var t = d3.transition().duration(1750);
     
 var g = d3.select("#chart-area")
     .append("svg")

@@ -34,7 +34,7 @@ g.append("text")
     .text("Revenue");
 
 d3.json("data/revenues.json").then(function(data){
-    // console.log(data);
+    console.log("data is: ", data);
 
     // Clean data
     data.forEach(function(d) {
